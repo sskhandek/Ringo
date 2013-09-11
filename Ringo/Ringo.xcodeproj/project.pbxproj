@@ -21,6 +21,8 @@
 		BAD482B217E0136A00F7EC8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD4829317E0136A00F7EC8F /* Foundation.framework */; };
 		BAD482BA17E0136A00F7EC8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAD482B817E0136A00F7EC8F /* InfoPlist.strings */; };
 		BAD482BD17E0136A00F7EC8F /* RingoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD482BC17E0136A00F7EC8F /* RingoTests.m */; };
+		BAD482C817E01CA600F7EC8F /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD482C717E01CA600F7EC8F /* HTTPClient.m */; };
+		BAD482C917E01CA600F7EC8F /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD482C717E01CA600F7EC8F /* HTTPClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		BAD482B917E0136A00F7EC8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAD482BB17E0136A00F7EC8F /* RingoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RingoTests.h; sourceTree = "<group>"; };
 		BAD482BC17E0136A00F7EC8F /* RingoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RingoTests.m; sourceTree = "<group>"; };
+		BAD482C617E01CA600F7EC8F /* HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPClient.h; sourceTree = "<group>"; };
+		BAD482C717E01CA600F7EC8F /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 		BAD4829717E0136A00F7EC8F /* Ringo */ = {
 			isa = PBXGroup;
 			children = (
+				BAD482CA17E01CAA00F7EC8F /* API */,
 				BAD482A017E0136A00F7EC8F /* AppDelegate.h */,
 				BAD482A117E0136A00F7EC8F /* AppDelegate.m */,
 				BAD4829817E0136A00F7EC8F /* Supporting Files */,
@@ -150,6 +155,15 @@
 				BAD482B817E0136A00F7EC8F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAD482CA17E01CAA00F7EC8F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BAD482C617E01CA600F7EC8F /* HTTPClient.h */,
+				BAD482C717E01CA600F7EC8F /* HTTPClient.m */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +277,7 @@
 			files = (
 				BAD4829E17E0136A00F7EC8F /* main.m in Sources */,
 				BAD482A217E0136A00F7EC8F /* AppDelegate.m in Sources */,
+				BAD482C817E01CA600F7EC8F /* HTTPClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAD482BD17E0136A00F7EC8F /* RingoTests.m in Sources */,
+				BAD482C917E01CA600F7EC8F /* HTTPClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
