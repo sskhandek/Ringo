@@ -23,6 +23,16 @@
 		BAD482BD17E0136A00F7EC8F /* RingoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD482BC17E0136A00F7EC8F /* RingoTests.m */; };
 		BAD482C817E01CA600F7EC8F /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD482C717E01CA600F7EC8F /* HTTPClient.m */; };
 		BAD482C917E01CA600F7EC8F /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD482C717E01CA600F7EC8F /* HTTPClient.m */; };
+		BAD482CD17E01D5100F7EC8F /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD482CC17E01D5100F7EC8F /* Album.m */; };
+		BAD482CE17E01D5100F7EC8F /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD482CC17E01D5100F7EC8F /* Album.m */; };
+		BAD482D117E01E2900F7EC8F /* AlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD482D017E01E2900F7EC8F /* AlbumView.m */; };
+		BAD482D217E01E2900F7EC8F /* AlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD482D017E01E2900F7EC8F /* AlbumView.m */; };
+		BAD482D817E01FB400F7EC8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD482D717E01FB400F7EC8F /* ViewController.m */; };
+		BAD482D917E01FB400F7EC8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD482D717E01FB400F7EC8F /* ViewController.m */; };
+		BAD482DC17E0209900F7EC8F /* LibraryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD482DB17E0209900F7EC8F /* LibraryAPI.m */; };
+		BAD482DD17E0209900F7EC8F /* LibraryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD482DB17E0209900F7EC8F /* LibraryAPI.m */; };
+		BAD482E017E0213200F7EC8F /* PersistencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD482DF17E0213200F7EC8F /* PersistencyManager.m */; };
+		BAD482E117E0213200F7EC8F /* PersistencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD482DF17E0213200F7EC8F /* PersistencyManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +67,16 @@
 		BAD482BC17E0136A00F7EC8F /* RingoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RingoTests.m; sourceTree = "<group>"; };
 		BAD482C617E01CA600F7EC8F /* HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPClient.h; sourceTree = "<group>"; };
 		BAD482C717E01CA600F7EC8F /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPClient.m; sourceTree = "<group>"; };
+		BAD482CB17E01D5100F7EC8F /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		BAD482CC17E01D5100F7EC8F /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		BAD482CF17E01E2900F7EC8F /* AlbumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumView.h; sourceTree = "<group>"; };
+		BAD482D017E01E2900F7EC8F /* AlbumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumView.m; sourceTree = "<group>"; };
+		BAD482D617E01FB400F7EC8F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAD482D717E01FB400F7EC8F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAD482DA17E0209900F7EC8F /* LibraryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryAPI.h; sourceTree = "<group>"; };
+		BAD482DB17E0209900F7EC8F /* LibraryAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryAPI.m; sourceTree = "<group>"; };
+		BAD482DE17E0213200F7EC8F /* PersistencyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistencyManager.h; sourceTree = "<group>"; };
+		BAD482DF17E0213200F7EC8F /* PersistencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistencyManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +136,9 @@
 		BAD4829717E0136A00F7EC8F /* Ringo */ = {
 			isa = PBXGroup;
 			children = (
+				BAD482D517E01F4800F7EC8F /* Controllers */,
+				BAD482D417E01F3F00F7EC8F /* Views */,
+				BAD482D317E01F3B00F7EC8F /* Model */,
 				BAD482CA17E01CAA00F7EC8F /* API */,
 				BAD482A017E0136A00F7EC8F /* AppDelegate.h */,
 				BAD482A117E0136A00F7EC8F /* AppDelegate.m */,
@@ -162,8 +185,39 @@
 			children = (
 				BAD482C617E01CA600F7EC8F /* HTTPClient.h */,
 				BAD482C717E01CA600F7EC8F /* HTTPClient.m */,
+				BAD482DA17E0209900F7EC8F /* LibraryAPI.h */,
+				BAD482DB17E0209900F7EC8F /* LibraryAPI.m */,
+				BAD482DE17E0213200F7EC8F /* PersistencyManager.h */,
+				BAD482DF17E0213200F7EC8F /* PersistencyManager.m */,
 			);
 			name = API;
+			sourceTree = "<group>";
+		};
+		BAD482D317E01F3B00F7EC8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAD482CB17E01D5100F7EC8F /* Album.h */,
+				BAD482CC17E01D5100F7EC8F /* Album.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BAD482D417E01F3F00F7EC8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BAD482CF17E01E2900F7EC8F /* AlbumView.h */,
+				BAD482D017E01E2900F7EC8F /* AlbumView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BAD482D517E01F4800F7EC8F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BAD482D617E01FB400F7EC8F /* ViewController.h */,
+				BAD482D717E01FB400F7EC8F /* ViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +332,11 @@
 				BAD4829E17E0136A00F7EC8F /* main.m in Sources */,
 				BAD482A217E0136A00F7EC8F /* AppDelegate.m in Sources */,
 				BAD482C817E01CA600F7EC8F /* HTTPClient.m in Sources */,
+				BAD482CD17E01D5100F7EC8F /* Album.m in Sources */,
+				BAD482D117E01E2900F7EC8F /* AlbumView.m in Sources */,
+				BAD482D817E01FB400F7EC8F /* ViewController.m in Sources */,
+				BAD482DC17E0209900F7EC8F /* LibraryAPI.m in Sources */,
+				BAD482E017E0213200F7EC8F /* PersistencyManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +346,11 @@
 			files = (
 				BAD482BD17E0136A00F7EC8F /* RingoTests.m in Sources */,
 				BAD482C917E01CA600F7EC8F /* HTTPClient.m in Sources */,
+				BAD482CE17E01D5100F7EC8F /* Album.m in Sources */,
+				BAD482D217E01E2900F7EC8F /* AlbumView.m in Sources */,
+				BAD482D917E01FB400F7EC8F /* ViewController.m in Sources */,
+				BAD482DD17E0209900F7EC8F /* LibraryAPI.m in Sources */,
+				BAD482E117E0213200F7EC8F /* PersistencyManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
